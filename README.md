@@ -49,6 +49,7 @@ The solution is deployed within a **single Azure resource group** to simplify li
 
 ### Compute
 - **Virtual Machine:** `vm-web03`
+- 
 - **OS:** Ubuntu Server
 - **Web Server:** NGINX
 - **Access:** SSH key-based authentication only
@@ -84,6 +85,10 @@ The solution is deployed within a **single Azure resource group** to simplify li
 - CPU alert configured to detect abnormal workload behavior
 
 ---
+### Web Application Verification
+The NGINX web application was accessed successfully via the VM’s public IP address, confirming that inbound HTTP (port 80) traffic is permitted by the Network Security Group.
+<img width="1053" height="551" alt="testthewebserv" src="https://github.com/user-attachments/assets/1f5daf65-d387-4db3-86be-eef11faa71a0" />
+
 
 ## Validation & Testing
 
